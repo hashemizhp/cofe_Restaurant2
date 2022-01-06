@@ -201,7 +201,7 @@ a:hover {
   width: 300px;
   background: white;
   top: 160px;
-  right: 0;
+  left: 0;
   padding: 35px;
   line-height: 40px;
   color: rgb(170 170 170);
