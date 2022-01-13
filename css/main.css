@@ -1,6 +1,16 @@
+@font-face {
+  font-family: 'Sahel-bold';
+
+  src: url(../font/sahel-font-v1.0.0-alpha9/Farsi-Digits/Sahel-FD.woff) format("woff");
+  
+}
+
 .werapper {
   min-height: 100vh;
+  font-family: 'Sahel-bold';
 }
+
+
 
 .nav-style1 {
   background-color: #1e1d23;
@@ -263,11 +273,11 @@ a:hover {
   padding-bottom: 50px;
 
   overflow: hidden;
-  background-color: #1e1d23;
+  background-color: #000;
   background-image: url(../img/h1_shape-1.png);
 }
 .bg-2 {
-  background-color: #00000029;
+  background-color: #00000082;
   width: 100%;
   height: 100%;
   position: absolute;
@@ -310,7 +320,7 @@ a:hover {
 .cart-text1 {
   padding-top: 300px;
   padding-bottom: 200px;
-  padding-left: 40px;
+  padding-left: 25px;
   z-index: 3;
   text-align: right;
   direction: rtl;
@@ -359,13 +369,14 @@ a:hover {
     right: -160px;
   }
   .h1_shape-5 {
+    display: none;
     left: 0;
     position: absolute;
-    bottom: 200px;
+    bottom: 0px;
   }
   .cart-text1 {
-    padding-top: 50px;
-    padding-bottom: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
   .h1_pizza {
     padding-top: 0px;
@@ -518,20 +529,15 @@ a:hover {
   height: 170px;
 }
 
-.cart-style3-1:hover img {
+
+
+.cart-style-3:hover .h1_banner1-2,
+.cart-style-3:hover .h1_banner2-1 {
   transition: 0.3s ease-in-out;
   transform: scale(1.1);
 }
 
-.cart-style3-2:hover img {
-  transition: 0.3s ease-in-out;
-  transform: scale(1.1);
-}
 
-.cart-style3-3:hover img {
-  transition: 0.3s ease-in-out;
-  transform: scale(1.1);
-}
 
 .h1_banner1-1,
 .h1_banner2-2,
@@ -682,15 +688,15 @@ a:hover {
 }
 .cart-text2 p {
   color: #fff;
-  font-size: 40px;
-  font-family: cursive;
+  font-size: 50px;
   font-weight: bold;
 }
 .cart-text2 h1 {
   color: #ffc107;
-  font-size: 130px;
+  font-size: 120px;
   font-weight: bold;
-  text-shadow: 0 1px 5px rgb(0 0 0 / 50%);
+  text-shadow: 0 0px 18px rgb(0 0 0 / 90%);
+
 }
 
 .btn-style3 {
@@ -743,7 +749,6 @@ a:hover {
   font-weight: bold;
 }
 .h1_think-2 p {
-  font-family: cursive;
   font-weight: bold;
 }
 
@@ -756,7 +761,7 @@ a:hover {
     padding: 180px;
   }
   .cart-text2 p {
-    font-size: 30px;
+    font-size: 50px;
   }
   .cart-text2 h1 {
     font-size: 70px;
@@ -779,7 +784,6 @@ a:hover {
   .cart-text2 {
     padding: 0;
     padding-top: 250px;
-    text-align: center;
   }
   .cart-text2 h1 {
     font-size: 60px;
@@ -882,7 +886,6 @@ a:hover {
 }
 .cart-txt5-1 p {
   color: #fff;
-  font-family: cursive;
   font-size: 40px;
 }
 .cart-txt5-1 h1 {
@@ -970,12 +973,12 @@ a:hover {
 }
 .cart-item7-2 {
   position: absolute;
-  left: -250px;
+  left: -300px;
   padding: 30px;
 }
 .cart-item7-3 {
   position: absolute;
-  top: -160px;
+  top: -200px;
   width: 700px;
   left: -430px;
 }
@@ -1028,7 +1031,6 @@ a:hover {
 }
 .cart-text7-1 h6 {
   color: #fff;
-  font-family: cursive;
   font-weight: bold;
   font-size: 30px;
 }
@@ -1054,7 +1056,6 @@ a:hover {
 }
 .cart-text7-2 h6 {
   color: #fff;
-  font-family: cursive;
   font-weight: bold;
   font-size: 30px;
 }
@@ -1079,27 +1080,26 @@ a:hover {
 }
 .cart-text7-3 h6 {
   color: #000;
-  font-family: cursive;
   font-weight: bold;
   font-size: 30px;
 }
 
 @media (max-width: 991px) {
   .cart-item7-1 {
-    width: 100%;
-    left: -160px;
+    width: 50%;
+    left: -150px;
     top: 50px;
   }
 
   .cart-item7-2 {
-    width: 91%;
+    width: 50%;
     left: -210px;
     top: 20px;
   }
 
   .cart-item7-3 {
-    width: 450px;
-    left: 0;
+    width: 50%;
+    left: -210px;
     top: -60px;
   }
   .cart-text7-3 {
@@ -1242,8 +1242,8 @@ a:hover {
   background-color: #ffff;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 7px;
+  padding-bottom: 3px;
   border-radius: 20px;
   font-size: 14px;
 }
